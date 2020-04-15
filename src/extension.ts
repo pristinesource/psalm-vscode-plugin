@@ -127,6 +127,9 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
                 args.unshift('--find-dead-code');
             }
 
+            // this will add the help link to the diagnostic issue
+            args.unshift('--use-extended-diagnostic-codes');
+
             args.unshift('-c', path.join(workspacePath, psalmConfigPath));
 
             // The server is implemented in PHP

@@ -4,7 +4,7 @@
 	"description": "VS Code Plugin for Psalm",
 	"author": "Matthew Brown",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.2.0",
 	"publisher": "getpsalm",
 	"categories": [
 		"Linters",
@@ -20,7 +20,7 @@
 		"url": "https://github.com/psalm/psalm-vscode-plugin"
 	},
 	"engines": {
-		"vscode": "^1.30.0"
+		"vscode": "^1.44.0"
 	},
 	"activationEvents": [
 		"onLanguage:php",
@@ -100,8 +100,8 @@
 		"@types/mocha": "^2.2.48",
 		"@types/mz": "0.0.31",
 		"@types/node": "^8.10.59",
-		"@types/semver": "^5.5.0",
-		"@types/vscode": "1.30",
+		"@types/semver": "^6.2.1",
+		"@types/vscode": "^1.44.0",
 		"husky": "^3.1.0",
 		"tslint": "^5.20.1",
 		"typescript": "^3.7.4",
@@ -111,7 +111,7 @@
 	"dependencies": {
 		"mz": "^2.7.0",
 		"semantic-release": "^15.14.0",
-		"semver": "^5.7.1",
-		"vscode-languageclient": "^5.2.1"
+		"semver": "^6.3.0",
+		"vscode-languageclient": "^7.0.0-next.1"
 	}
 }
